@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1620"
+   LastUpgradeVersion = "1630"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -82,19 +82,11 @@
       debugDocumentVersioning = "YES"
       askForAppToLaunch = "Yes"
       launchAutomaticallySubstyle = "2">
-      <PathRunnable
+      <RemoteRunnable
          runnableDebuggingMode = "0"
-         FilePath = "/Users/robgarth/Library/Developer/Xcode/DerivedData/Xcode.app-dnbpwlykzlncwshixipdzvpjdpfs/Build/Products/iFont-Framework">
-      </PathRunnable>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "09E725842D40B06E005A7CCF"
-            BuildableName = "iFont_Framework.framework"
-            BlueprintName = "iFont-Framework"
-            ReferencedContainer = "container:iFont-Framework.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
+         BundleIdentifier = "com.apple.dt.Xcode"
+         RemotePath = "/Applications/Xcode-beta.app">
+      </RemoteRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
